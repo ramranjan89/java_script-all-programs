@@ -36,3 +36,4 @@ let result = randomNo%2;
 
 result = result==0?"given no is evenNo" : "given no is oddNo"
 console.log(result);
+console.log("after edit this trying to push 1st time on git hub");
