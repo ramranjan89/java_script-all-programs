@@ -24,3 +24,60 @@ console.log(`today is sunday ${days}`);
 break;
 
 }
+
+let day = 6;
+let dayName;
+
+switch(day) {
+  case 1:
+    dayName = "Monday";
+    break;
+  case 2:
+    dayName = "Tuesday";
+    break;
+  case 3:
+    dayName = "Wednesday";
+    break;
+  case 4:
+    dayName = "Thursday";
+    break;
+  case 5:
+    dayName = "Friday";
+    break;
+  default:
+    dayName = "weekend";
+}
+
+console.log(dayName);
+
+let score = 1;
+
+switch (true) {
+  case (score >= 90):
+    console.log("A grade");
+    break;
+  case (score >= 80 && score < 90):
+    console.log("B grade");
+    break;
+  case (score >= 70 && score < 80):
+    console.log("C grade");
+    break;
+  default:
+    console.log("F grade");
+}
+
+console.log("-----------------fall through---------------");
+let color = 'red';
+
+switch (color) {
+  case 'red':
+  case 'blue':
+  case 'green':
+    console.log("This is a primary color");
+    break;
+  case 'yellow':
+    console.log("This is a secondary color");
+    break;
+  default:
+    console.log("Color not recognized");
+}
