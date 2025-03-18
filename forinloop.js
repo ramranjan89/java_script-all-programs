@@ -16,7 +16,6 @@ console.log(key);
 //console.log(` ${key} = ${empolye[key]}`);
 }
 // to print or access the nested object value.
-
 for(let key in empolye.device)
 {
 //console.log(key);
